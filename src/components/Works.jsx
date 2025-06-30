@@ -2,29 +2,34 @@ import React from "react";
 import { SectionWrapper } from "../hoc";
 import { FaGithub } from "react-icons/fa";
 import { FiExternalLink } from "react-icons/fi";
-import { blogWebsite, QuickConnect1, nssImage, currencyCon } from "../assets";
+import EBMS from "../assets/company/EBMS.png";
+import BMS from "../assets/company/BMS.png";
+import currencyCon from "../assets/Currency.png";
+import CS from "../assets/company/CS.png";
+import Crypto1 from "../assets/company/Crypto1.jpg";
+
 
 const projects = [
   {
     id: 1,
-    title: "JustBlogs",
+    title: "Cryptovista",
     github: import.meta.env.VITE_JUSTBLOG_GITHUB_REPO,
     live: import.meta.env.VITE_JUSTBLOG_LIVE_PROJECT,
-    image: blogWebsite,
+    image: Crypto1,
   },
   {
     id: 2,
-    title: "QuickConnect",
+    title: "Bank Management System using Java",
     github: import.meta.env.VITE_QUICKCONNECT_GITHUB_REPO,
     live: import.meta.env.VITE_QUICKCONNECT_LIVE_PROJECT,
-    image: QuickConnect1,
+    image: BMS,
   },
   {
     id: 3,
-    title: "NSS PDEA Website",
+    title: "Coffee Shop",
     github: import.meta.env.VITE_NSS_GITHUB_REPO,
     live: import.meta.env.VITE_NSS_LIVE_PROJECT,
-    image: nssImage,
+    image: CS,
   },
   {
     id: 4,
@@ -32,6 +37,13 @@ const projects = [
     github: import.meta.env.VITE_CC_GITHUB_REPO,
     live: import.meta.env.VITE_CC_LIVE_PROJECT,
     image: currencyCon,
+  },
+  {
+    id: 5,
+    title: " Elictricity Bill Management System Using Java",
+    github: import.meta.env.VITE_CC_GITHUB_REPO,
+    live: import.meta.env.VITE_CC_LIVE_PROJECT,
+    image: EBMS,
   },
 ];
 

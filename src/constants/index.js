@@ -14,7 +14,6 @@ import {
   git,
   figma,
   docker,
-  Musitech,
   carrent,
   jobit,
   tripguide,
@@ -22,6 +21,9 @@ import {
   backend,
   fullstack,
 } from "../assets";
+
+import brain from "../assets/brain.png";
+
 
 export const navLinks = [
   {
@@ -123,16 +125,16 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full Stack Web Intern",
-    company_name: "Musitech",
-    icon: Musitech,
+    title: "AWS Intern",
+    company_name: "Brain-O-Vision pvt.ltd",
+    icon: brain,
     iconBg: "#4A90E2",
-    date: "June 2024 - Present",
+    date: "Sept 2023 - Nov 2023",
     points: [
-      "Developed a scalable academic website, improving overall performance and user experience.",
-      "Revamped the existing legacy website by introducing modern UI/UX practices and responsive design.",
-      "Collaborated with stakeholders to align development with institutional goals.",
-      "Worked on the Aspire Sports Club website using React.js, enhancing UI components and interactivity.",
+      "Developed and deployed scalable cloud-based academic platforms using AWS EC2, significantly enhancing system performance, availability, and user experience.",
+      "Utilized Amazon S3 for efficient and secure storage of static assets, including images, documents, and backups, reducing server load and improving content delivery speed.",
+      "Implemented robust access control policies using AWS IAM (Identity and Access Management) to manage user permissions and ensure secure resource access.",
+      
     ],
   },
   {
@@ -140,7 +142,7 @@ const experiences = [
     company_name: "Linux Club Community",
     icon: linux,
     iconBg: "#000000",
-    date: "July 2023 - Present",
+    date: "July 2022 - May 2025 ",
     points: [
       "Contributed actively to the Linux Club Community by conducting hands-on sessions and technical workshops.",
       "Led initiatives to promote Linux, DevOps, and open-source technologies among students and tech enthusiasts.",
@@ -162,6 +164,7 @@ const experiences = [
     ],
   },
 ];
+
 
 const projects = [
   {

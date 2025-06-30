@@ -4,8 +4,7 @@ import { services } from "../constants";
 import { fadeIn, imageVarient, textVariant, subHeading } from "../utils/motion";
 import { ServiceCard } from "../components";
 import { SectionWrapper } from "../hoc";
-import { mypic } from "../assets";
-import Leetcode from "./Leetcode";
+import myimg from "../assets/myimg.jpg";
 
 const About = () => {
   return (
@@ -34,7 +33,7 @@ const About = () => {
           className="w-full flex flex-[35%] justify-center items-center  "
         >
           <img
-            src={mypic}
+            src={myimg}
             alt="Profile"
             className="rounded-full shadow-lg object-cover h-40 w-40 sm:h-52 sm:w-52 md:h-64 md:w-64 lg:h-80 lg:w-80 border-4 border-transparent hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-400 hover:to-blue-500"
           />
@@ -60,7 +59,6 @@ const About = () => {
         </div>
       </div>
 
-      <Leetcode />
     </>
   );
 };
